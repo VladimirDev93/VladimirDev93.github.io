@@ -4,6 +4,11 @@
   height: 64px;
   position: fixed;
   width: 100%;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--bg-primary);
+    box-shadow: rgba(0,0,0,0.2) 0px 6px 16px 0px, rgba(0,0,0,0.05) 0px 0px 4px 0px;
+  }
 }
 
 .ul {
@@ -23,6 +28,10 @@
       color: #000;
       text-decoration: none;
       text-transform: uppercase;
+
+      @media (prefers-color-scheme: dark) {
+        color: var(--text-primary);
+      }
     }
   }
 }
