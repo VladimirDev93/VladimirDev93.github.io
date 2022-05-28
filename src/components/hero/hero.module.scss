@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  padding: 0 3rem;
+}
+
+.avatar {
+  p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.avatarImage {
+  border-radius: 478px;
+  aspect-ratio: 4 / 3;
+}
+
+.intro {
+  line-height: 1;
+  p {
+    font-size: 6rem;
+    font-weight: 100;
+    margin: 0;
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
