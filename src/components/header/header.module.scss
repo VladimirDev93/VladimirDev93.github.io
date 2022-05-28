@@ -22,12 +22,12 @@
   margin: 0;
 
   li {
-    padding: .5rem 1rem;
 
     a {
       color: #000;
       text-decoration: none;
       text-transform: uppercase;
+      padding: .5rem 1rem;
 
       @media (prefers-color-scheme: dark) {
         color: var(--text-primary);
