@@ -11,6 +11,11 @@
 }
 
 .avatar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
   p {
     font-size: 1.5rem;
     font-weight: 400;
