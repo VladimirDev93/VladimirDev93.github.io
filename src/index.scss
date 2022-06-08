@@ -5,6 +5,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.w-50 {
+  max-width: 50vw;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-primary: #111;
@@ -14,5 +34,9 @@ body {
 
   body {
     background-color: var(--bg-secondary);
+  }
+
+  * {
+    color: #bfbfbf;
   }
 }

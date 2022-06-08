@@ -2,12 +2,10 @@
   display: flex;
   gap: 3rem;
   align-items: center;
-  justify-content: space-around;
-  min-height: 100vh;
+  justify-content: space-between;
+  min-height: calc(100vh - 64px);
   flex-wrap: wrap;
-  padding: 0 3rem;
-
-
+  padding: 4rem 0;
 }
 
 .avatar {
