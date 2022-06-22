@@ -1,0 +1,25 @@
+.title {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.clients {
+  &_wrapper {
+    height: 40vh;
+
+    img {
+      filter: drop-shadow(2px 4px 6px #bfbfbf);
+
+      @media (prefers-color-scheme: dark) {
+        filter: drop-shadow(2px 4px 6px #111);
+      }
+    }
+  }
+
+
+  &_logos {
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+
