@@ -4,7 +4,7 @@ import styles from "./about.module.scss";
 const About = () => {
   return (
     <Container>
-      <div className="flex flex-col w-50" id="about">
+      <div className={`flex flex-col w-50 ${styles.wrapper}`} id="about">
         <h2 className={styles.whoAmI}>Who am I?</h2>
         <p className={styles.text}>
           A {new Date().getFullYear() - 1993} years old dude based in Kikinda,

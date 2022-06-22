@@ -2,7 +2,7 @@ import styles from "./socialicons.module.scss";
 
 const SocialIcons = () => (
   <div className={styles.social}>
-    <a href="//github.com/unigazer" target="_blank" rel="noreferrer noopener">
+    <a href="//github.com/unigazer" target="_blank" rel="noreferrer noopener" title="GitHub">
       <svg
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -35,6 +35,7 @@ const SocialIcons = () => (
       href="//linkedin.com/in/vladimirdev/"
       target="_blank"
       rel="noreferrer noopener"
+      title="LinkedIn"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -51,6 +52,7 @@ const SocialIcons = () => (
       href="//instagram.com/unigazer"
       target="_blank"
       rel="noreferrer noopener"
+      title="Instagram"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -67,6 +69,7 @@ const SocialIcons = () => (
       href="//twitter.com/_unigazer_"
       target="_blank"
       rel="noreferrer noopener"
+      title="Twitter"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -83,6 +86,7 @@ const SocialIcons = () => (
       href="https://open.spotify.com/user/kekendjanin?si=ddcbe1a2866b4b75"
       target="_blank"
       rel="noreferrer noopener"
+      title="Spotify"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

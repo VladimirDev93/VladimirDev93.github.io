@@ -4,6 +4,7 @@
   height: 64px;
   position: fixed;
   width: 100%;
+  box-shadow: 0 3px 6px rgba(140,149,159,0.15);
 
   @media (prefers-color-scheme: dark) {
     background-color: rgb(17, 17, 17, 0.7);
