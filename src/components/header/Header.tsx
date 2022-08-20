@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import style from './header.module.scss';
 
 const Navs = () => {
@@ -12,8 +14,17 @@ const Navs = () => {
     },
   ];
 
+  const router = useRouter();
+
   return (
     <>
+      {router.pathname !== '/' && (
+        <li>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+        </li>
+      )}
       {list.map(({ label, url }) => (
         <li key={label}>
           <a href={url}>{label}</a>

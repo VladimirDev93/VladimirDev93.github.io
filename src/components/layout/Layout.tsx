@@ -1,10 +1,11 @@
 import { ReactNode } from 'react';
 import Header from '../header/Header';
+import style from './layout.module.scss';
 
 const Layout = ({ children }: { children: ReactNode }) => (
   <>
     <Header />
-    {children}
+    <div className={style.container}>{children}</div>
   </>
 );
 
