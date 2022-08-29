@@ -10,7 +10,7 @@ const Navs = () => {
     },
     {
       label: 'Contact',
-      url: '/url',
+      url: '/contact',
     },
   ];
 

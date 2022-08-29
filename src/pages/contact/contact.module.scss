@@ -1,0 +1,13 @@
+.contact_page {
+  display: grid;
+  place-items: center;
+  gap: 1.5rem;
+
+  @media (min-width: 1024px) {
+    width: 35vw;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
