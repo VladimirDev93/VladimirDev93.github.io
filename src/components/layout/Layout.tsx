@@ -3,7 +3,7 @@ import Header from '../header/Header';
 import style from './layout.module.scss';
 
 interface ILayout {
-  itemsCenter: boolean;
+  itemsCenter?: boolean;
   children: ReactNode;
 }
 
