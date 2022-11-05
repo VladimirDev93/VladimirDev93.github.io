@@ -20,14 +20,12 @@ const Navs = () => {
     <>
       {router.pathname !== '/' && (
         <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
+          <Link href="/">Home</Link>
         </li>
       )}
       {list.map(({ label, url }) => (
         <li key={label}>
-          <a href={url}>{label}</a>
+          <Link href={url}>{label}</Link>
         </li>
       ))}
     </>
