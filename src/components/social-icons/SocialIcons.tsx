@@ -54,7 +54,7 @@ const SocialIcons = () => (
       </svg>
     </a>
     <a
-      href="//instagram.com/unigazer"
+      href="//instagram.com/vlad.stargazer"
       target="_blank"
       rel="noreferrer noopener"
       title="Instagram"
