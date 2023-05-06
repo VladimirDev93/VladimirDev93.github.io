@@ -12,6 +12,7 @@ const Main = () => (
       className={style.img}
       width={160}
       height={160}
+      loading="eager"
     />
     <h1>Hi, I&apos;m Vladimir!</h1>
     <p className={style.p}>
