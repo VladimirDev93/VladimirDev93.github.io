@@ -1,9 +1,14 @@
+'use client';
+
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import style from './header.module.scss';
+import style from './header.module.css';
 
 const Navs = () => {
   const list = [
+    {
+      label: 'Home',
+      url: '/'
+    },
     {
       label: 'Repositories',
       url: '/repos',
@@ -14,15 +19,8 @@ const Navs = () => {
     },
   ];
 
-  const router = useRouter();
-
   return (
     <>
-      {router.pathname !== '/' && (
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-      )}
       {list.map(({ label, url }) => (
         <li key={label}>
           <Link href={url}>{label}</Link>

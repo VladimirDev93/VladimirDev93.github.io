@@ -1,11 +1,13 @@
+'use client';
+
 import Image from 'next/image';
 import SocialIcons from '../social-icons/SocialIcons';
-import style from './main.module.scss';
+import style from './main.module.css';
 
 const Main = () => (
   <main className={style.main}>
     <Image
-      src="/me.webp"
+      src="/me.jpg"
       alt="avatar"
       className={style.img}
       width={160}

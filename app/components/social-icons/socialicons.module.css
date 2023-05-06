@@ -1,0 +1,12 @@
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.svg {
+  fill: #000;
+  @media (prefers-color-scheme: dark) {
+    fill: var(--text-primary);
+  }
+}
+

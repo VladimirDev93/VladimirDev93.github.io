@@ -1,5 +1,7 @@
+'use client';
+
 import Link from 'next/link';
-import style from './repocards.module.scss';
+import style from './repocards.module.css';
 
 const RepoCards = () => {
   const list = [
