@@ -1,0 +1,29 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #fafafa;
+  border: 1px solid var(--border-color);
+  border-radius: .5rem;
+  box-shadow: 0 3px 6px 0 hsla(212, 9%, 59%, .15);
+  padding: 0 1rem;
+  text-decoration: none;
+  width: 30dvw;
+
+  p:first-child {
+    font-weight: 700;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--primary-dark);
+    border-color: var(--border-color--dark);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .2);
+
+    &:hover {
+      background-color: var(--primary-dark-hover);
+    }
+  }
+}

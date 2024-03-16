@@ -1,0 +1,31 @@
+main {
+  display: grid;
+  place-items: center;
+  height: calc(100dvh - 56px);
+
+  .avatar {
+    border-radius: 160px;
+  }
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img[alt="x brand logo"] {
+    background-color: var(--black);
+    border-radius: .35rem;
+    padding: .35rem;
+  }
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+
+  img {
+    fill: var(--black);
+  }
+}
