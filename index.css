@@ -1,7 +1,7 @@
 main {
   display: grid;
   place-items: center;
-  height: 100dvh;
+  height: calc(100dvh - 112px);
 
   .avatar {
     border-radius: 160px;
