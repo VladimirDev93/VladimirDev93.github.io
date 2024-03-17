@@ -1,5 +1,5 @@
 @import url("colors.css");
-@import url("styles/header.css");
+@import url("header.css");
 
 * {
   box-sizing: border-box;
