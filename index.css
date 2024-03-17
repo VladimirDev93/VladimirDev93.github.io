@@ -14,7 +14,7 @@ main {
   flex-direction: column;
   justify-content: center;
 
-  img[alt="x brand logo"] {
+  img[alt="to my x (a.k.a twitter) profile"] {
     background-color: var(--black);
     border-radius: .35rem;
     padding: .35rem;
