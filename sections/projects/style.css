@@ -1,0 +1,102 @@
+#projects {
+  align-items: center;
+  background-color: #fafafa;
+  padding: 5rem 0;
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 0 0 5rem;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--secondary-dark);
+  }
+}
+
+#projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .card {
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    display: block;
+    flex: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    text-decoration: none;
+    width: 570px;
+    height: 145px;
+
+    .project-title {
+      font-weight: 700;
+    }
+
+    .card--label {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top-right-radius: 4px;
+      clip-path: polygon(10% 0px, 100% 0%, 60px 85%);
+
+      p {
+        font-weight: 700;
+        text-align: right;
+        margin: 0;
+        margin-top: .10rem;
+        margin-right: .25rem;
+      }
+
+      &[data-label="JS"] {
+        background-color: #f0db4f;
+        width: 60px;
+        height: 60px;
+
+        @media (prefers-color-scheme: dark) {
+          background-color: #a89200;
+
+          p {
+            color: #000;
+          }
+        }
+      }
+
+      &[data-label="CSS"] {
+        background-color: #264de4;
+        width: 60px;
+        height: 60px;
+
+        p {
+          color: #fff;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          background-color: #0022a5;
+
+          p {
+            color: #d3d3d3;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      box-shadow: rgba(140, 149, 159, 0.15) 0px 3px 6px 0px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--primary-dark);
+      border-color: #000;
+
+      &:hover {
+        box-shadow: rgb(1, 4, 9) 0px 3px 6px 0px;
+      }
+    }
+
+    @media (width >=1024px) {
+      height: 113px;
+    }
+  }
+}

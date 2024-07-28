@@ -1,0 +1,73 @@
+#landing {
+  img[alt="to my x (a.k.a. twitter) profile"] {
+    background-color: var(--black);
+    border-radius: .35rem;
+    padding: .35rem;
+  }
+
+  .landing--wrapper {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100dvh;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (width >= 1024px) {
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
+
+  .landing--intro {
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 0;
+    }
+
+    @media (width >= 1024px) {
+      width: 35vw;
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+      }
+  
+      h2 {
+        font-size: 4rem;
+        margin-top: 0;
+      }
+  
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  .avatar {
+    object-fit: cover;
+    width: 150px;
+    height: 180px;
+
+    @media (width >= 1024px) {
+      width: 384px;
+      height: 550px;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem 0;
+
+  img {
+    fill: var(--black);
+  }
+}

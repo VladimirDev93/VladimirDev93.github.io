@@ -1,0 +1,39 @@
+#testimonials {
+  padding: 5rem 0;
+
+  h2 {
+    margin: 0 0 5rem;
+  }
+}
+
+#testimonials-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .card {
+    display: block;
+    flex: 0 auto;
+    position: relative;
+    text-decoration: none;
+    width: 570px;
+
+    .project-title {
+      font-weight: 700;
+    }
+
+    img {
+      width: fit-content;
+      height: 40px;
+      object-fit: contain;
+
+      @media (width >=1024px) {
+        height: 85px;
+      }
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
