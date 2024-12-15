@@ -11,6 +11,12 @@ const testimonials = [{
     url: 'https://www.bottomline.com',
     width: 339
   }, {
+    title: 'DISA',
+    description: 'DISA: Screening, drug and alcohol testing, and compliance solutions',
+    img: '/assets/companies/disa.svg',
+    url: 'https://disa.com/',
+    width: 339
+  }, {
     title: 'All of Us Research Program',
     description: 'All of Us Research Program: National Institutes of Health (NIH)',
     img: '/assets/companies/all_of_us.png',
